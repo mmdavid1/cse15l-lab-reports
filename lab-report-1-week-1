@@ -9,18 +9,7 @@ First, go to https://code.visualstudio.com/download and download the appropriate
 The opening screen should look like the image below
 This now allows you to create, edit, open and compile programs (VScode also has a terminal you can run command lines from)
 
-![VS-codefrontpage](blob/main/VScodeIntroPage.png)
-
-
-
-
-
-
-
-
-
-
-
+![VS-codefrontpage](VScodeIntroPage.png)
 
 Now that you have VScode installed, you have to remotely connect to the ieng6 computer from your terminal (you do this either from the VScode terminal or your computer’s terminal)
 To connect remotely, you will first have to open the terminal and make sure you are in your home directory (to do this, just type cd ~ into the terminal and this will put you in your home terminal)
@@ -28,16 +17,18 @@ Then, type the command ssh followed by your account name (should look something 
 
 
 
-	     C. The command line prompt should look something like this 
+ The command line prompt should look something like this 
+
+![ssh-login](sshlogin.png)
 
 
-	D. after entering the ssh prompt, it will ask you for your password which you will have to change beforehand to access the ieng6 computer.
+after entering the ssh prompt, it will ask you for your password which you will have to change beforehand to access the ieng6 computer.
 
 Trying some commands
 Now that you have VScode and have gotten into the SSH, we are going to be running some commands (both locally on your computer, and remotely through ssh)
 Try running some of the commands below by simply typing them into the terminal and see what the output looks like
 
-
+![comands](commands.png)
 
 
 
@@ -53,9 +44,7 @@ SCP stands for secure copy protocol, and is commonly used to copy files/folders 
 To use SCP, first you need to ensure that you are running it from your computer (so not when you are logged into ieng6)
 The format for using SCP is as follows: scp <filename(with extension at the end)> <account information (same as used for logging into ssh) + path you want file to be on> (reference image below)
 
-
-
-
+![](scp.png)
 
 
 After this step, you will be asked for the same password again, and you will have to login to ssh. Then, once you're in ssh, you are now able to run this file from the ieng6 computer instead of locally on your own!
@@ -66,7 +55,7 @@ Because having to type your password every time you want to use SCP is time cons
 The command to begin this process is shown in the image below                       ( ssh-keygen )
 
 
-
+![ssh-keygen](sshkeygen.png)
 
 
 
@@ -76,7 +65,7 @@ The command to begin this process is shown in the image below                   
 Then, follow the prompts that appear on the terminal and you will now have two new files on your computer (a private and public key, which you can find in the .ssh directory)
 Now, it’s important to copy your public key to your user account on the ieng6 server (Note: After many attempts in lab, I am not able to sign into the ssh (presumably because the password reset tool is taking a long time), so I will be using screenshots provided to us to show how this process works) The whole process is shown in the image below (note: the # followed by words is not a command, simply showing you what computer the following command is running from)
 
-	
+![connecting-remote](connecttoremote.png)
 
 
 
