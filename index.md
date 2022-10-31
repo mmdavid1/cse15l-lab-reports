@@ -18,3 +18,4 @@ This one is cool too:
 
 [Lab Report 2](lab-report-2.md)
 
+[lab Report 3](lab-report-3.md)
