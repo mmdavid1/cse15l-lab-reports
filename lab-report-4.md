@@ -9,7 +9,7 @@
         
         <esc>
 
-This ensures you are in normal mode in vim
+This ensures you are in normal mode in vim, which is needed for the next commands.
 <li>
         
         /File[]
