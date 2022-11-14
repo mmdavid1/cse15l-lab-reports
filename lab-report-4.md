@@ -18,7 +18,7 @@ This ensures you are in normal mode in vim, which is needed for the next command
 
         <enter>
 
-![](finding-File[].png)
+![finding-file](findingfile.png)
 
 As  you can see at the first line, the cursor has now moved to the first occurence of "File[]", which is where we want the cursor to be (note that the find function is case sensitive)
 
@@ -26,28 +26,28 @@ As  you can see at the first line, the cursor has now moved to the first occuren
         
         k 
 
-![](k.png)
+![moving-up](k.png)
 
 The k key is going to move the cursor up one line, which we need to happen for the next command we will be using. (note that we pressed k in normal mode, so that it moved the cursor up one line)
 
 <li>
 
         o
-![](o.png)
+![creating-new-line](o.png)
 
 The o character (in normal mode) creates an empty line below the current line and also puts vim into edit mode, which we need to do to insert the print statement (as seen in the image, there has now been a line above the File[] line)
 
 <li>
         
         <tab> + 4 spaces 
-![](tab.png)
+![tabing](tab.png)
     
 Now that we are in insert mode and the cursor is on the line we want to insert, we need to move the cursor to the exact space we want to type at so that the file is still formatted correctly. After doing this, the cursor will be exactly where we want it to be to start typing <b>(total number of keystrokes so far is 10)</b>
 
 <li>
 
         System.out.println(f.toString() + “is a directory”);
-![](print.png)
+![writing-print-statement](print.png)
 
 Because we were in the correct spot with the cursor and we were in insert mode, we were simply able to type the line of code we wanted to insert (I counted this whole command as 1 key stroke, because if we count the individual number of keys it took to type this it is over 50)
 
@@ -59,7 +59,7 @@ hitting the esc character takes us out of insert mode
 <li>
 
         :wq<Enter>
-![](wq.png)
+![file-saved](wq.png)
 
 :wq will write and quit the vim file, so it will save the changes you have made and quit vim, which is what we want now that we have made the changes needed (Image shows my current directory outside vim)
 
