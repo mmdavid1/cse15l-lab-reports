@@ -18,7 +18,7 @@ This ensures you are in normal mode in vim, which is needed for the next command
 
         <enter>
 
-![finding-file](findingfile.png)
+![finding-file](/cse15l-lab-reports/findingfile.png)
 
 As  you can see at the first line, the cursor has now moved to the first occurence of "File[]", which is where we want the cursor to be (note that the find function is case sensitive)
 
