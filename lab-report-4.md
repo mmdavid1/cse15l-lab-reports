@@ -59,7 +59,7 @@ hitting the esc character takes us out of insert mode
 <li>
 
         :wq<Enter>
-![file-saved](/Users/matthewdavid/Documents/GitHub/cse15l-lab-reports/wq.png)
+![file-saved](wq.png)
 
 :wq will write and quit the vim file, so it will save the changes you have made and quit vim, which is what we want now that we have made the changes needed (Image shows my current directory outside vim)
 
